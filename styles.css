@@ -96,3 +96,9 @@ tr.total td {
   text-align: right;
   padding: 0 0.25rem;
 }
+
+/*The :nth-of-type() pseudo-selector is used to target specific elements based on their order among siblings of the same type. I've used this pseudo-selector to target the third td element within my total table rows. I've given it a right padding of 0.5rem.*/
+
+tr.total td:nth-of-type(3) {
+  padding-right: 0.5rem;
+}

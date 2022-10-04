@@ -28,3 +28,10 @@ h1 .flex {
   flex-direction: column-reverse;
   gap: 1rem;
 }
+/*The :first-of-type pseudo-selector is used to target the first element that matches the selector. I created a h1 .flex span:first-of-type selector to target the first span element in my .flex container. My span span elements are reversed, visually, so this will appear to be the second element on the page.
+
+I've given my new selector a font-size property of 0.7em to make it look like a sub-heading.*/
+
+h1 .flex span:first-of-type {
+  font-size: 0.7em;
+}

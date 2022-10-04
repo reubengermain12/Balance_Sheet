@@ -58,11 +58,6 @@ section {
 .table-wrap {
   padding: 0 0.75rem 1.5rem 0.75rem;
 }
-
-/*Before I start diving in to the table itself, my span elements are currently bolded. I've created a span:not(.sr-only) selector and given it a font-weight property set to normal.
-
-The :not() pseudo-selector is used to target all elements that do not match the selector - in this case, any of your span elements that do not have the sr-only class. This ensures that your earlier rules for the span[class~="sr-only"] selector are not overwritten.*/
-
 span:not(.sr-only) {
   font-weight: normal;
 }

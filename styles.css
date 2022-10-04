@@ -92,3 +92,12 @@ tr[class="total"] th {
   text-align: left;
   padding: 0.5rem 0 0.25rem 0.5rem;
 }
+
+/*The key difference between tr[class="total"] and tr.total is that the first will select tr elements where the only class is total. The second will select tr elements where the class includes total.
+
+In my case, tr.total will work. I can use this selector to target all td elements within my .total rows. So i've aligned the text to the right, and give them a padding of 0 0.25rem.*/
+
+tr.total td {
+  text-align: right;
+  padding: 0 0.25rem;
+}

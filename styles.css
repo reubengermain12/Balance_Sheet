@@ -84,9 +84,6 @@ tbody td {
 tbody th {
   width: calc(100% - 12rem);
 }
-
-/*The [attribute="value"] selector targets any element that has an attribute with a specific value. I created a tr[class="total"] selector to target specifically the tr elements with the total class.*/
-
 tr[class="total"] {
   border-bottom: 4px double #0a0a23;
   font-weight: bold;

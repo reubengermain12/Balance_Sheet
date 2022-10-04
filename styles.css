@@ -28,7 +28,6 @@ h1 .flex {
   flex-direction: column-reverse;
   gap: 1rem;
 }
-
 h1 .flex span:first-of-type {
   font-size: 0.7em;
 }
@@ -40,9 +39,6 @@ section {
   margin: 0 auto;
   border: 2px solid #d0d0d5;
 }
-
-/*The last part of my table heading is my years. I've created a #years selector, and enabled flexbox. I've also justified the content to the end of the flex direction, and made the element sticky (position). I've fixed it to the top of its container with top: 0.*/
-
 #years {
   display: flex-end;
   justify-content: flex-end;

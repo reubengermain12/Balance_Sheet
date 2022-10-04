@@ -77,7 +77,6 @@ table caption {
   left: 0.5rem;
 }
 tbody td {
-  display: flex;
   width: 100vw;
   min-width: 4rem;
   max-width: 4rem;
